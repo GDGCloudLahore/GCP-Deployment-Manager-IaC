@@ -6,15 +6,15 @@ resources:
     zone: {{ properties['zone'] }}
     machineType: zones/{{ properties['zone'] }}/machineTypes/{{ properties['machineType'] }}
     disks:
-    - deviceName: boot
-      type: PERSISTENT
-      boot: true
-      autoDelete: true
-      initializeParams:
-        diskSizeGb: {{ properties['diskSizeGb'] }}
-        sourceImage: {{ properties['sourceImage'] }}
+      - deviceName: boot
+        type: PERSISTENT
+        boot: true
+        autoDelete: true
+        initializeParams:
+          diskSizeGb: {{ properties['diskSizeGb'] }}
+          sourceImage: {{ properties['sourceImage'] }}
     networkInterfaces:
-    - network: global/networks/default
-      accessConfigs:
-      - name: External NAT
-        type: ONE_TO_ONE_NAT
+      - network: global/networks/default
+        accessConfigs:
+          - name: External NAT
+            type: ONE_TO_ONE_NAT

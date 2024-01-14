@@ -6,7 +6,7 @@ resources:
 - name: vm-instance
   type: vm-template.jinja
   properties:
-    zone: {{ properties['zone'] }}
-    machineType: {{ properties['machineType'] }}
-    sourceImage: {{ properties['sourceImage'] }}
+    zone: us-central1-a
+    machineType: n1-standard-1
+    sourceImage: projects/debian-cloud/global/images/family/debian-9
     diskSizeGb: 10

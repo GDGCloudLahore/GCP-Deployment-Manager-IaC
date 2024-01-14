@@ -59,7 +59,4 @@ gcloud deployment-manager deployments delete DEPLOYMENT_NAME
 
 ## Learn More
 
-For more detailed instructions and best practices, check out my [blog post on Google Cloud Deployment Manager](BLOG_LINK).
-
-
-```
+For more detailed instructions and best practices, check out my [blog post on Google Cloud Deployment Manager](https://dev.to/gdgcloudlahore_org).

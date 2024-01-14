@@ -8,5 +8,5 @@ resources:
   properties:
     zone: us-central1-a
     machineType: n1-standard-1
-    sourceImage: projects/debian-cloud/global/images/family/debian-9
+    sourceImage: projects/debian-cloud/global/images/debian-11-bullseye-arm64-v20240110
     diskSizeGb: 10
